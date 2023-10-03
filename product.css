@@ -65,15 +65,16 @@ nav i {
     height:270px;
     width:300px;
     border-radius:35px;
-    box-shadow:2px 2px 7px 7px rgb(43, 43, 43),-2px -2px 4px 4px rgb(48, 47, 47);
+    box-shadow:2px 2px 5px 5px rgb(43, 43, 43),-2px -2px 4px 4px rgb(48, 47, 47);
 
 }
-.p-image :hover{
+.p-image img:hover{
     cursor:pointer;
     transition: all 2s;
     transform:rotateY(360deg);
     border-radius:50%;
-    box-shadow:2px 2px 4px 4px rgb(190, 74, 32),-2px -2px 4px 4px rgb(251, 110, 58);
+    box-shadow:2px 2px 4px 4px darkslateblue,-2px -2px 4px 4px darkslateblue;
+    width:270px;
 }
 .p-image {
     display: flex;
@@ -276,6 +277,7 @@ nav i {
             flex-wrap: wrap;
             padding: 10px;
             justify-content: center;
+            gap:30px;
         }
         .p-image img {
             width:100%;
@@ -284,7 +286,7 @@ nav i {
             font-size: 30px;
         }
         .p-image {
-            width:49%;
+            width:45%;
            font-size: 32px;
         }
     }
@@ -294,7 +296,7 @@ nav i {
             flex-wrap: wrap;
             padding: 10px;
             justify-content: center;
-
+            gap:30px;
         }
         .p-image img {
             width:100%;
@@ -303,7 +305,7 @@ nav i {
             font-size: 31px;
         }
         .p-image {
-           width:32%;
+           width:30%;
            font-size: 34px;
         }   
     }

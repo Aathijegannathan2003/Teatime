@@ -89,7 +89,7 @@ font-family: 'Merienda', cursive;
     color:lightslategray;
     text-shadow:4px 4px 4px  darkblue;
 }
-.screenvideo button{
+.screenvidio button{
     padding:14px 26px;
     position: absolute;
     bottom:50px;
@@ -193,7 +193,7 @@ nav i {
     gap:15px;
     margin:30px;
     border-radius:10px;
-    background-color:rgb(246, 246, 222);
+    background-color:rgb(242, 242, 173);
     box-shadow:2px 2px 3px darkgreen,-2px -2px 3px darkgreen;
     animation-name:box;
     animation-iteration-count: infinite;
@@ -893,6 +893,9 @@ nav img{
     }
     #para :nth-child(3) {
         font-size:11px;
+    }
+    #para p {
+        line-height:1.3;
     }
 }
 @media screen and (min-width:500px) and (max-width:700px) {
