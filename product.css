@@ -250,7 +250,7 @@ nav i {
 
 
     /* Products */
-    @media screen and (max-width:600px) {
+    @media screen and (max-width:500px) {
         .product-link {
             display: flex;
             flex-direction: column;
@@ -266,22 +266,39 @@ nav i {
             width:100%;
         }
     }
-    @media screen and (min-width:600px) and (max-width:1000px) {
+    @media screen and (min-width:500px) and (max-width:800px) {
         .product-link {
             display: flex;
             flex-wrap: wrap;
             padding: 10px;
-
         }
         .p-image img {
             width:100%;
         }
         .p-image h1 {
-            font-size: 34px;
+            font-size: 30px;
         }
         .p-image {
-            width: 49%;
+            width:47%;
+           font-size: 32px;
         }
+    }
+    @media screen and (min-width:800px) and (max-width:1200px) {
+        .product-link {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        .p-image img {
+            width:100%;
+        }
+        .p-image h1 {
+            font-size: 31px;
+        }
+        .p-image {
+           width:33%;
+           font-size: 34px;
+        }   
     }
         /* Footer */
     @media screen and (min-width:300px) and (max-width:500px) {
