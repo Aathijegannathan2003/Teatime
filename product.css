@@ -65,10 +65,10 @@ nav i {
     height:270px;
     width:300px;
     border-radius:35px;
-    box-shadow:2px 2px 10px 10px rgb(43, 43, 43),-2px -2px 4px 4px rgb(48, 47, 47);
+    box-shadow:2px 2px 7px 7px rgb(43, 43, 43),-2px -2px 4px 4px rgb(48, 47, 47);
 
 }
-.p-image img:hover{
+.p-image :hover{
     cursor:pointer;
     transition: all 2s;
     transform:rotateY(360deg);
@@ -88,7 +88,7 @@ nav i {
 }
 .product-link {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     gap:10px;
 }
 .p-image p {
