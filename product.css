@@ -74,8 +74,6 @@ nav i {
     transform:rotateY(360deg);
     border-radius:50%;
     box-shadow:2px 2px 4px 4px rgb(190, 74, 32),-2px -2px 4px 4px rgb(251, 110, 58);
-    height:300px;
-    width:300px;
 }
 .p-image {
     display: flex;
