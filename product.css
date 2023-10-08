@@ -69,7 +69,7 @@ nav i {
     min-height:200px;
     width:320px;
     box-shadow:-1px 1px 10px  grey,1px 1px 10px grey;
-    background-image:radial-gradient(rgb(252, 203, 207) ,rgb(202, 213, 215));
+    background-image:radial-gradient(rgb(156, 157, 160),rgb(192, 239, 242));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,11 +244,11 @@ nav i {
     @media screen and (min-width:768px) and (max-width:1200px) {
         nav img{
             width:160px;
-            height:49px;
+            /* height:49px; */
         }
         nav {
             padding:10px 30px;
-            height:74px;
+            /* height:74px; */
         }
         nav .navtools {
             font-size:18px;
