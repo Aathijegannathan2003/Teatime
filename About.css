@@ -145,7 +145,7 @@ nav i {
     }
     .about h1 {
         font-size:45px;
-        color:darkslateblue;
+        color:darkorchid;
         padding-bottom:20px;
         text-shadow:2px 2px 2px lightblue;
     }
@@ -163,10 +163,11 @@ nav i {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        text-align: center;
     }
     .historyoftea h1 {
         font-size:45px;
-        color:darkslateblue;
+        color:brown;
         padding-bottom:30px;
         text-shadow:2px 2px 2px lightblue;
     }

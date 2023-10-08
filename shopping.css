@@ -160,7 +160,7 @@ nav i {
     .q-image p:hover{
         font-weight:600;
         cursor: pointer;
-        color:red;
+        color:darkblue;
     }
     .q-image h1:hover {
         transform: scale(1.1,1.1);
